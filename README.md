@@ -1,19 +1,28 @@
-# HGBM Luxury Prototype v2
+# HGBM Premium Prototype v3
 
-Replace the existing prototype files in your `hgbmprototype` folder with:
+This version removes the fragile image dependency from the hero and builds the visual presentation directly in HTML/CSS.
+
+## Replace the files in your local hgbmprototype folder
+
+Copy these files over your existing ones:
 
 - index.html
 - styles.css
 - script.js
 
-Then preview `index.html` with Live Server.
+Then open the folder in VS Code and use Live Server.
 
-When it looks right:
+## Git
+
+When ready:
 
 git add .
-git commit -m "Luxury editorial redesign"
+git commit -m "Premium HGBM redesign v3"
 git push
 
-Your HGBM folder already tracks the separate `DCORK2006/hgbmprototype` repository.
+Your local `hgbmprototype` folder should continue pushing to:
+https://github.com/DCORK2006/hgbmprototype.git
 
-Important: for speed, this prototype references public image URLs already used by the live HGBM Wix site. Before production, replace those URLs with local image files you own.
+## Production note
+
+The stylized book covers are design placeholders. Replace them later with HGBM's actual cover artwork once the page layout is approved.

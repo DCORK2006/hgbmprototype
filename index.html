@@ -1,249 +1,450 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Higher Ground Books & Media — stories of faith, courage, and transformation." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Higher Ground Books & Media</title>
+  <meta name="description" content="Higher Ground Books & Media — independent publishing in Springfield, Ohio. Stories of triumph that empower, inspire, and educate.">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Italiana&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <div class="cursor-glow" aria-hidden="true"></div>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 
-  <header class="site-header">
-    <a href="#top" class="wordmark">
-      <span class="wordmark-small">HIGHER GROUND</span>
-      <span class="wordmark-large">Books & Media</span>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#top" class="brand">
+      <div class="brand-monogram">HG</div>
+      <div class="brand-name">
+        <span>Higher Ground</span>
+        <small>Books & Media</small>
+      </div>
     </a>
 
-    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-      <span></span><span></span>
+    <button class="menu-button" id="menuButton" aria-label="Open navigation" aria-expanded="false">
+      <span></span>
+      <span></span>
     </button>
 
-    <nav class="nav">
+    <nav class="nav" id="mainNav">
       <a href="#books">Books</a>
-      <a href="#story">Our Story</a>
-      <a href="#authors">Authors</a>
-      <a href="#lchayim">L'Chayim</a>
+      <a href="#about">About</a>
+      <a href="#authors">For Authors</a>
+      <a href="#imprint">L'Chayim</a>
       <a href="#journal">Journal</a>
-      <a href="#submit" class="nav-button">Submit</a>
+      <a href="#submit" class="nav-cta">Submit a Manuscript</a>
     </nav>
   </header>
 
-  <div class="hero-left">
+  <main id="top">
 
-  <p class="kicker reveal">
-    Independent Publisher • Springfield, Ohio
-  </p>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-orbit hero-orbit-one"></div>
+      <div class="hero-orbit hero-orbit-two"></div>
 
-  <h1 class="reveal">
-    Stories of
-    <span>triumph.</span>
-  </h1>
-
-  <p class="hero-sub reveal">
-    Fiction, children's books, nonfiction, and Christian resources
-    created to empower, inspire, educate, and share experiences
-    worth remembering.
-  </p>
-
-  <div class="hero-categories reveal">
-    <span>Fiction</span>
-    <span>Children's</span>
-    <span>Nonfiction</span>
-    <span>Christian Resources</span>
-  </div>
-
-  <div class="hero-actions reveal">
-    <a href="#books" class="btn btn-gold">
-      Explore Our Books
-    </a>
-
-    <a href="#submit" class="btn-link">
-      Publish With Higher Ground <span>↗</span>
-    </a>
-  </div>
-
-</div>
-
-      <div class="scroll-mark"><span>SCROLL</span><i></i></div>
-    </section>
-
-   <section class="manifesto" id="story">
-  <div class="manifesto-number">01</div>
-
-  <div class="manifesto-copy reveal">
-    <p class="eyebrow">OUR PURPOSE</p>
-
-    <h2>
-      Stories of triumph.
-      <em>Stories that move people forward.</em>
-    </h2>
-
-    <p>
-      Higher Ground Books & Media is an independent publisher located in
-      Springfield, Ohio. We publish fiction, children's books, nonfiction,
-      personal stories, and resources for ministry and personal exploration
-      of the Christian faith.
-    </p>
-
-    <p>
-      Our purpose is to empower, inspire, and educate through the sharing
-      of personal experiences.
-    </p>
-  </div>
-</section>
-    <section class="books" id="books">
-      <div class="section-top reveal">
-        <div>
-          <p class="eyebrow">THE COLLECTION</p>
-          <h2>Books with weight.</h2>
+      <div class="hero-copy">
+        <div class="hero-label reveal">
+          <span class="line"></span>
+          <span>Independent Publisher · Springfield, Ohio</span>
         </div>
-        <a href="https://www.highergroundbooksandmedia.com/shop-old" target="_blank" rel="noopener" class="btn-link dark-link">View the shop <span>↗</span></a>
-      </div>
 
-      <div class="book-showcase">
-        <article class="book-item reveal">
-          <div class="book-frame">
-            <img src="https://static.wixstatic.com/media/5782d8_f625326164434610b5e237dc5c1bacac~mv2.jpg/v1/fill/w_250%2Ch_377%2Cal_c%2Cq_90%2Cenc_auto/5782d8_f625326164434610b5e237dc5c1bacac~mv2.jpg" alt="All You Ever Need is Jesus">
-          </div>
-          <div class="book-info">
-            <span class="book-index">01</span>
-            <div><h3>All You Ever Need Is Jesus</h3><p>Rev. Jerry C. Crossley</p></div>
-          </div>
-        </article>
+        <h1 class="reveal">
+          Stories of
+          <em>triumph.</em>
+        </h1>
 
-        <article class="book-item offset reveal">
-          <div class="book-frame">
-            <img src="https://static.wixstatic.com/media/5782d8_539bed41551f4785b2f569599ac9e429~mv2.jpg/v1/fill/w_250%2Ch_377%2Cal_c%2Cq_90%2Cenc_auto/5782d8_539bed41551f4785b2f569599ac9e429~mv2.jpg" alt="It's Only a Game">
-          </div>
-          <div class="book-info">
-            <span class="book-index">02</span>
-            <div><h3>It's Only a Game</h3><p>Darrel Johnson</p></div>
-          </div>
-        </article>
-
-        <article class="book-item reveal">
-          <div class="book-frame">
-            <img src="https://static.wixstatic.com/media/5782d8_ce149441592d4e539634a63e13139409~mv2.jpg/v1/fill/w_250%2Ch_377%2Cal_c%2Cq_90%2Cenc_auto/5782d8_ce149441592d4e539634a63e13139409~mv2.jpg" alt="One Step at a Time">
-          </div>
-          <div class="book-info">
-            <span class="book-index">03</span>
-            <div><h3>One Step at a Time</h3><p>Lori (Martin) Potts Zimmerman</p></div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="quote-band">
-      <p class="quote-label">OUR PURPOSE</p>
-      <blockquote class="reveal">“Empower. Inspire. Educate.”</blockquote>
-    </section>
-
-    <section class="authors" id="authors">
-      <div class="authors-visual reveal">
-        <div class="portrait-frame">
-          <div class="portrait-overlay"></div>
-          <div class="portrait-copy">
-            <span>YOUR STORY</span>
-            <strong>DESERVES<br>THE ROOM.</strong>
-          </div>
-        </div>
-      </div>
-
-      <div class="authors-copy reveal">
-        <p class="eyebrow">FOR AUTHORS</p>
-        <h2>Bring us the manuscript you can't stop thinking about.</h2>
-        <p>
-          Higher Ground works with writers who have something meaningful to say and want a publishing partner who treats the book like more than a file moving through a production queue.
+        <p class="hero-intro reveal">
+          Books that carry something with them: faith, imagination,
+          courage, lived experience, and the power to move a reader forward.
         </p>
-        <div class="author-services">
-          <div><span>01</span><p>Editorial development & proofreading</p></div>
-          <div><span>02</span><p>Cover design & interior formatting</p></div>
-          <div><span>03</span><p>Print, digital & distribution support</p></div>
-          <div><span>04</span><p>Launch guidance & promotional support</p></div>
+
+        <div class="hero-tags reveal">
+          <span>Fiction</span>
+          <span>Children's</span>
+          <span>Nonfiction</span>
+          <span>Christian Resources</span>
         </div>
-        <a href="#submit" class="btn btn-outline">Submission Guidelines</a>
+
+        <div class="hero-actions reveal">
+          <a href="#books" class="button button-gold">Explore Our Books</a>
+          <a href="#submit" class="editorial-link">Publish With Us <b>↗</b></a>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal">
+        <div class="spotlight"></div>
+
+        <div class="book book-left">
+          <div class="book-spine"></div>
+          <div class="cover cover-burgundy">
+            <span class="cover-kicker">HIGHER GROUND BOOKS</span>
+            <div class="cover-symbol">✦</div>
+            <strong>A STORY<br>OF COURAGE</strong>
+            <small>Fiction · HGBM</small>
+          </div>
+        </div>
+
+        <div class="book book-center">
+          <div class="book-spine"></div>
+          <div class="cover cover-cream">
+            <span class="cover-kicker">HIGHER GROUND BOOKS</span>
+            <div class="cover-arch"></div>
+            <strong>BEGIN<br>AGAIN</strong>
+            <small>Stories of Triumph</small>
+          </div>
+        </div>
+
+        <div class="book book-right">
+          <div class="book-spine"></div>
+          <div class="cover cover-green">
+            <span class="cover-kicker">HIGHER GROUND BOOKS</span>
+            <div class="cover-sun"></div>
+            <strong>THE ROAD<br>HOME</strong>
+            <small>Faith · Reflection</small>
+          </div>
+        </div>
+
+        <div class="hero-caption">
+          <span>Publishing with purpose</span>
+          <i></i>
+          <span>Since 2019</span>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <span>Discover</span>
+        <i></i>
       </div>
     </section>
 
-    <section class="lchayim" id="lchayim">
-      <div class="lchayim-copy reveal">
-        <p class="eyebrow">A HIGHER GROUND IMPRINT</p>
-        <h2>L'Chayim.</h2>
-        <p class="lchayim-meaning">To life.</p>
-        <p>A collection exploring Jewish faith, tradition, culture, memory, and the questions that deepen our understanding of life.</p>
-        <a href="https://www.highergroundbooksandmedia.com/" target="_blank" rel="noopener" class="btn-link cream-link">Explore the imprint <span>↗</span></a>
+
+    <!-- BRAND STATEMENT -->
+    <section class="statement" id="about">
+      <div class="statement-side reveal">
+        <span>01</span>
+        <p>Our purpose</p>
       </div>
-      <div class="lchayim-art reveal">
-        <div class="lchayim-card">
-          <img src="https://static.wixstatic.com/media/5782d8_0f25ed32518f4c7d8497f64ee24e9d31~mv2.jpg/v1/fill/w_324%2Ch_324%2Cal_c%2Cq_80%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/L%E2%80%99Chayim%20%281%29.jpg" alt="L'Chayim Library">
+
+      <div class="statement-main reveal">
+        <p class="section-kicker">EMPOWER · INSPIRE · EDUCATE</p>
+
+        <h2>
+          A home for stories
+          <span>worth carrying with you.</span>
+        </h2>
+
+        <div class="statement-copy">
+          <p>
+            Higher Ground Books & Media is an independent publisher in
+            Springfield, Ohio specializing in stories of triumph.
+          </p>
+
+          <p>
+            We publish fiction, children's books, nonfiction, personal
+            experiences, and resources for ministry and personal exploration
+            of the Christian faith.
+          </p>
         </div>
       </div>
     </section>
 
+
+    <!-- BOOKS -->
+    <section class="catalog" id="books">
+      <div class="catalog-heading reveal">
+        <p class="section-kicker">SELECTED TITLES</p>
+        <h2>From the shelves.</h2>
+        <a href="https://www.highergroundbooksandmedia.com/shop-old"
+           target="_blank"
+           rel="noopener"
+           class="editorial-link dark">
+          Visit the Bookstore <b>↗</b>
+        </a>
+      </div>
+
+      <div class="catalog-grid">
+
+        <article class="catalog-item catalog-a reveal">
+          <div class="catalog-art art-gold">
+            <div class="catalog-book mini-book burgundy-book">
+              <small>HIGHER GROUND</small>
+              <strong>Stories<br>That Rise</strong>
+              <span>HGBM</span>
+            </div>
+          </div>
+          <div class="catalog-info">
+            <span>01</span>
+            <div>
+              <h3>Stories of Triumph</h3>
+              <p>Purpose-driven fiction & nonfiction</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="catalog-item catalog-b reveal">
+          <div class="catalog-art art-dark">
+            <div class="catalog-book mini-book cream-book">
+              <small>HIGHER GROUND</small>
+              <strong>Faith<br>Forward</strong>
+              <span>HGBM</span>
+            </div>
+          </div>
+          <div class="catalog-info">
+            <span>02</span>
+            <div>
+              <h3>Faith & Ministry</h3>
+              <p>Resources for spiritual exploration</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="catalog-item catalog-c reveal">
+          <div class="catalog-art art-sage">
+            <div class="catalog-book mini-book green-book">
+              <small>HIGHER GROUND</small>
+              <strong>Little<br>Stories</strong>
+              <span>HGBM</span>
+            </div>
+          </div>
+          <div class="catalog-info">
+            <span>03</span>
+            <div>
+              <h3>Children's Books</h3>
+              <p>Stories for growing minds</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+    <!-- FULL BLEED QUOTE -->
+    <section class="impact">
+      <div class="impact-lines"></div>
+      <p class="section-kicker light reveal">WHY STORIES MATTER</p>
+      <blockquote class="reveal">
+        “The right story doesn't just entertain.
+        <em>It changes what feels possible.</em>”
+      </blockquote>
+    </section>
+
+
+    <!-- AUTHORS -->
+    <section class="authors" id="authors">
+      <div class="authors-copy reveal">
+        <p class="section-kicker">FOR AUTHORS</p>
+
+        <h2>
+          Your manuscript deserves
+          <span>more than a template.</span>
+        </h2>
+
+        <p class="authors-intro">
+          Higher Ground works with writers who have something meaningful
+          to say and want a publishing process built around the story,
+          not around making the story fit a machine.
+        </p>
+
+        <div class="services">
+          <div>
+            <span>01</span>
+            <h3>Editorial</h3>
+            <p>Manuscript review, critique, proofreading and development.</p>
+          </div>
+
+          <div>
+            <span>02</span>
+            <h3>Design</h3>
+            <p>Professional cover direction, layout and formatting.</p>
+          </div>
+
+          <div>
+            <span>03</span>
+            <h3>Production</h3>
+            <p>Paperback, eBook and distribution preparation.</p>
+          </div>
+
+          <div>
+            <span>04</span>
+            <h3>Promotion</h3>
+            <p>Launch materials and ongoing visibility support.</p>
+          </div>
+        </div>
+
+        <a href="https://www.highergroundbooksandmedia.com/submission-guidelines"
+           target="_blank"
+           rel="noopener"
+           class="button button-dark">
+          Read Submission Guidelines
+        </a>
+      </div>
+
+      <div class="authors-visual reveal">
+        <div class="editorial-card">
+          <div class="editorial-card-top">
+            <span>THE NEXT CHAPTER</span>
+            <span>HGBM</span>
+          </div>
+
+          <div class="editorial-mark">“</div>
+
+          <p>
+            Bring us the manuscript
+            you can't stop thinking about.
+          </p>
+
+          <div class="editorial-card-bottom">
+            <i></i>
+            <span>Tell the story.</span>
+          </div>
+        </div>
+
+        <div class="authors-circle"></div>
+      </div>
+    </section>
+
+
+    <!-- L'CHAYIM -->
+    <section class="imprint" id="imprint">
+      <div class="imprint-art reveal">
+        <div class="arch-outer">
+          <div class="arch-inner">
+            <span class="hebrew">לחיים</span>
+            <strong>L'Chayim</strong>
+            <small>LIBRARY</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="imprint-copy reveal">
+        <p class="section-kicker light">A HIGHER GROUND IMPRINT</p>
+        <h2>To life.</h2>
+
+        <p class="imprint-lead">
+          Literature exploring Jewish faith, memory, culture, tradition,
+          identity, and conversation.
+        </p>
+
+        <a href="https://www.highergroundbooksandmedia.com/"
+           target="_blank"
+           rel="noopener"
+           class="editorial-link">
+          Discover L'Chayim <b>↗</b>
+        </a>
+      </div>
+    </section>
+
+
+    <!-- JOURNAL -->
     <section class="journal" id="journal">
-      <div class="section-top reveal">
-        <div>
-          <p class="eyebrow">FROM THE JOURNAL</p>
-          <h2>Stories behind<br>the stories.</h2>
-        </div>
-        <a href="https://www.highergroundbooksandmedia.com/blog" target="_blank" rel="noopener" class="btn-link dark-link">Read all <span>↗</span></a>
+      <div class="journal-heading reveal">
+        <p class="section-kicker">FROM HIGHER GROUND</p>
+        <h2>Notes from<br>the margins.</h2>
       </div>
 
       <div class="journal-grid">
-        <article class="journal-card feature-card reveal">
-          <div class="journal-img journal-img-1"></div>
-          <span>Author Spotlight</span>
-          <h3>Meet the voices behind Higher Ground.</h3>
-          <p>Introduce readers to authors as people, not just names underneath book covers.</p>
+        <article class="journal-feature reveal">
+          <div class="journal-image"></div>
+          <div class="journal-feature-copy">
+            <span>AUTHOR SPOTLIGHT</span>
+            <h3>The people behind the pages.</h3>
+            <p>
+              Interviews, announcements, releases and conversations
+              with Higher Ground authors.
+            </p>
+            <a href="https://www.highergroundbooksandmedia.com/blog"
+               target="_blank"
+               rel="noopener">
+              Read the Journal ↗
+            </a>
+          </div>
         </article>
-        <article class="journal-card reveal">
-          <span>On Writing</span>
-          <h3>What makes a story worth publishing?</h3>
-          <p>Editorial perspective, publishing insight, and useful guidance for emerging writers.</p>
+
+        <article class="journal-small reveal">
+          <span>PUBLISHING</span>
+          <h3>What makes a manuscript stand out?</h3>
+          <p>Thoughts on craft, voice and telling the story only you can tell.</p>
         </article>
-        <article class="journal-card reveal">
-          <span>Faith & Life</span>
-          <h3>Books can become places we return to.</h3>
-          <p>Reflection, conversation, and ideas that extend beyond the page.</p>
+
+        <article class="journal-small wine reveal">
+          <span>FAITH & LIFE</span>
+          <h3>Where story and meaning meet.</h3>
+          <p>Reflections for readers looking beyond the final page.</p>
         </article>
       </div>
     </section>
 
+
+    <!-- SUBMISSION CTA -->
     <section class="submit" id="submit">
-      <div class="submit-orbit orbit-one"></div>
-      <div class="submit-orbit orbit-two"></div>
-      <div class="submit-copy reveal">
-        <p class="eyebrow">MANUSCRIPT SUBMISSIONS</p>
-        <h2>Have a story<br>worth <em>remembering?</em></h2>
-        <p>Higher Ground accepts unsolicited submissions from agented and unagented U.S. authors.</p>
+      <div class="submit-rule"></div>
+
+      <div class="submit-content reveal">
+        <p class="section-kicker light">MANUSCRIPT SUBMISSIONS</p>
+
+        <h2>
+          Have a story
+          <span>worth sharing?</span>
+        </h2>
+
+        <p>
+          Higher Ground accepts unsolicited submissions from agented
+          and unagented U.S. authors.
+        </p>
+
         <div class="submit-actions">
-          <a href="https://www.highergroundbooksandmedia.com/submission-guidelines" target="_blank" rel="noopener" class="btn btn-gold">Start Your Submission</a>
-          <a href="mailto:highergroundbooksandmedia@gmail.com" class="btn-link">Contact HGBM <span>↗</span></a>
+          <a href="https://www.highergroundbooksandmedia.com/submission-guidelines"
+             target="_blank"
+             rel="noopener"
+             class="button button-gold">
+            Start Your Submission
+          </a>
+
+          <a href="mailto:highergroundbooksandmedia@gmail.com"
+             class="editorial-link">
+            Contact the Publisher <b>↗</b>
+          </a>
         </div>
       </div>
     </section>
+
   </main>
 
+
   <footer>
-    <div class="footer-wordmark">
-      <span>Higher Ground</span>
-      <strong>Books & Media</strong>
+    <div class="footer-brand">
+      <strong>Higher Ground</strong>
+      <span>Books & Media</span>
     </div>
-    <div class="footer-nav">
+
+    <div class="footer-links">
       <a href="#books">Books</a>
       <a href="#authors">Authors</a>
-      <a href="#lchayim">L'Chayim</a>
+      <a href="#imprint">L'Chayim</a>
       <a href="#journal">Journal</a>
-      <a href="#submit">Submissions</a>
+      <a href="https://www.highergroundbooksandmedia.com/disclaimers-terms"
+         target="_blank"
+         rel="noopener">
+        Terms
+      </a>
     </div>
-    <div class="footer-end">
-      <p>Springfield, Ohio</p>
-      <p>© <span id="year"></span> HGBM</p>
+
+    <div class="footer-meta">
+      <a href="https://www.instagram.com/highergroundbooksandmedia"
+         target="_blank"
+         rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/HigherGroundBooksandMedia"
+         target="_blank"
+         rel="noopener">Facebook</a>
+      <a href="https://www.linkedin.com/company/higher-ground-books-media"
+         target="_blank"
+         rel="noopener">LinkedIn</a>
+      <span>© <span id="year"></span> HGBM</span>
     </div>
   </footer>
 
